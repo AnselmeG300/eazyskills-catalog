@@ -7,7 +7,7 @@ from glob import glob
 PATTERN_COURSES = r"^[a-z_]+_(beginner|intermediate|advanced)_(en|fr|es)(_([a-z_]+))?\.yaml$"
 PATTERN_PATHS = r"^[a-z_]+(_[a-z_]+)?_(en|fr|es)\.yaml$"
 PATTERN_BOOTCAMPS = r"^[a-z_]+_[a-z_]+_(en|fr|es)\.yaml$"
-PATTERN_FAQS = r"^[a-z_]+_(en|fr|es)\.yaml$"  # Example: fr_eazytraining.yaml
+PATTERN_FAQS = r"^(en|fr|es)(_([a-z_]+))?\.yaml$"  # Example: fr_eazytraining.yaml
 
 def validate_naming(directory, pattern):
     """Validate filenames in a directory against a given regex pattern."""

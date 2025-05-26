@@ -15,6 +15,7 @@ course_ids:
   - courses/kubernetes_les_bases_intermediate_fr_eazytraining.yaml
   - courses/aws_pour_devops_intermediate_fr_eazytraining.yaml
   - courses/azure_devops_intermediate_fr_eazytraining.yaml
+  - courses/aws_certified_developer_associate_intermediate_fr_eazytraining.yaml
 prerequisites: Connaissances de base en administration des systèmes, des réseaux et Git.
 url: https://eazytraining.fr/parcours-cloud/
 language: French

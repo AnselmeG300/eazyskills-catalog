@@ -55,6 +55,9 @@ jobs:
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
         run: |
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
+          done
           if [ -z "$ALL_CHANGED_FILES" ]; then
             echo "No YAML files modified."
           else

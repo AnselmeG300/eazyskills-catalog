@@ -11,11 +11,11 @@ ALLOWED_TECHNOLOGIES = {
     "php", "go", "rust", "kotlin", "swift", "scala", "perl", "dart",
     # Containerization and orchestration
     "docker", "podman", "kubernetes", "openshift", "docker-compose",
-    "cri-o", "containerd", "helm", "rancher", "docker-swarm",
+    "cri-o", "containerd", "helm", "rancher", "docker-swarm", "private-registry",
     # Cloud computing
     "aws", "azure", "gcp", "ibm-cloud", "oracle-cloud", "alibaba-cloud",
     "ec2", "s3", "rds", "eks", "lambda", "azure-vm", "azure-functions",
-    "cloud-run", "firebase", "cloudflare", "azure-devops",
+    "cloud-run", "firebase", "cloudflare", "azure-devops", "aws-cdk", "aws-sdk", "aws-cli",
     # Databases
     "postgresql", "mysql", "mariadb", "sql-server", "oracle-db",
     "mongodb", "cassandra", "dynamodb", "redis", "couchbase", "neo4j",
@@ -44,7 +44,7 @@ ALLOWED_TECHNOLOGIES = {
     "redhat", "alpine",
     # Versioning and collaboration tools
     "git", "github", "gitlab", "bitbucket", "mercurial", "svn", "jira",
-    "trello", "confluence", "slack", "teams",
+    "trello", "confluence", "slack", "teams", "github",
     # Software testing tools
     "postman", "xray",
     # Management tools
@@ -56,6 +56,7 @@ ALLOWED_TECHNOLOGIES = {
     "cisco", "packet-tracer",
     # domain
     "it",
+    
 }
 
 def validate_technologies(technologies):

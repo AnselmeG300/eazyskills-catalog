@@ -1,0 +1,24 @@
+id: null
+name: AWS Certified developer Associate
+url: https://eazytraining.fr/cours/aws-certified-developer-associate/
+duration_hours: 3.8
+level: Intermediate
+objectives: Associate et acquérir une maîtrise pratique de la gestion d’applications sur AWS.
+description: >
+  Le Bootcamp AWS Certified Developer – Associate est un programme intensif conçu pour former les développeurs et les professionnels IT à l’utilisation des services AWS du point de vue du développement d’applications cloud. 
+  Il offre une immersion complète dans les services clés AWS, avec des sessions théoriques et pratiques. À la fin de la formation, les participants seront préparés pour réussir l’examen AWS Certified Developer
+prerequisites: 
+  Notions de base en programmation (JavaScript, Python ou Java recommandés).
+  Compréhension de base des principes cloud.
+  Compte AWS actif avec accès au Free Tier pour les exercices pratiques.
+  Expérience préalable dans le développement ou la gestion d’applications souhaitée, mais non obligatoire.
+technologies:
+  - aws
+  - aws-cdk
+  - aws-sdk
+  - aws-cli
+  - github
+  - postman
+  - terraform
+deprecated: false
+language: French

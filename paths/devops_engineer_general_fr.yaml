@@ -18,6 +18,7 @@ course_ids:
  - courses/jenkins-x_advanced_fr_eazytraining.yaml
  - courses/kubernetes_advanced_fr_eazytraining.yaml
  - courses/tekton_advanced_fr_eazytraining.yaml
+ - courses/docker_avance_intermediate_fr_eazytraining.yaml
 prerequisites:
  Avant d’aborder le DevOps, vous devez absolument maitriser les notions de bases sur LINUX et GIT
  Connaissances générales en développement et linux
