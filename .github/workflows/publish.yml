@@ -3,7 +3,7 @@ name: Generate SQL Script for Database Update
 on:
   push:
     branches:
-      - main  # Trigger only on merges to the main branch
+      - up  # Trigger only on merges to the main branch
 
 jobs:
   generate-sql:
